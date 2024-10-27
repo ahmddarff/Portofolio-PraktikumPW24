@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .card:hover {
+            transform: scale(1.05);
+            transition: transform 0.3s;
+        }
+
+        .container {
+        border-radius: 8px;
+        padding: 20px;
+        margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img src="foto arif.jpg" alt="Foto Ahmad Arif Fatahillah" class="rounded-circle" width="25"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">Tentang Saya</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Pengalaman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Proyek</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Keterampilan</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-2">
+        <section id="about" class="mt-1">
+            <h2 class="text-left">Tentang Saya</h2>
+            <img src="foto arif.jpg" alt="Foto Ahmad Arif Fatahillah" class="squared-circle mb-3" width="250">
+            <p>Halo! Nama saya Ahmad Arif Fatahillah, biasa dipanggil Arif. Saya adalah mahasiswa dari Universitas
+                Sumatera Utara di Fakultas ilmu Komputer Dan Teknologi Informasi Program Studi Teknologi Informasi. Saya
+                lahir di Medan, 24 Februari 2005 dan merupakan lulusan dari SMK Negeri 14 Medan. Saat ini, saya
+                tinggal di Jalan Marelan Pasar III Timur LK 26 dan merupakan anak pertama dari dua bersaudara.</p>
+        </section>
+
+        <section id="experience" class="mt-5">
+            <h2 class="text-left">Pengalaman</h2>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action">1. Prambors - Battle Of Putih Abu-Abu
+                    (2023)</a>
+                <a href="#" class="list-group-item list-group-item-action">2. Indonesian Mathematic Competition (IMC)
+                    LOGIKA UI (2023)</a>
+                <a href="#" class="list-group-item list-group-item-action">3. Lomba Matematika Nasional (LMNAS) UGM
+                    (2022)</a>
+                <a href="#" class="list-group-item list-group-item-action">4. PKL PT. Sumber Usaha Rizkila (2022)</a>
+            </div>
+        </section>
+
+        <section id="projects" class="mt-5">
+            <h2 class="text-left">Proyek</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="download.jpg" class="card-img-top" alt="Proyek Web">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek Pembuatan Web</h5>
+                            <p class="card-text">Proyek pembuatan web untuk tugas sekolah.</p>
+                            <a href="https://tugaswebsite-kelompok2.on.drv.tw/latihan%20bootstrap/" target="_blank"
+                                class="btn btn-primary">Lihat Proyek</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <img src="wajan bolic.jpg" class="card-img-top" alt="Proyek Wajan Bolic" height="230"
+                            width="200">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyek Pembuatan Wajan Bolic</h5>
+                            <p class="card-text">Pembuatan wajan bolic untuk tugas sekolah.</p>
+                            <a href="#" class="btn btn-primary">Lihat Proyek</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="mt-5">
+            <h2 class="text-left">Keterampilan Relevan</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">HTML <i class="fas fa-check-circle"></i></li>
+                        <li class="list-group-item">CSS <i class="fas fa-check-circle"></i></li>
+                        <li class="list-group-item">JavaScript <i class="fas fa-check-circle"></i></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list-group">
+                        <li class="list-group-item">Web Server <i class="fas fa-check-circle"></i></li>
+                        <li class="list-group-item">Bootstrap <i class="fas fa-check-circle"></i></li>
+                        <li class="list-group-item">MySQL <i class="fas fa-check-circle"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-4 mt-5">
+        &copy; 2024 Portfolio Saya. All rights reserved.<br>
+        Kontak Saya : <a href="mailto:ahmadariffatahillah12@gmail.com">ahmadariffatahillah12@gmail.com</a>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
